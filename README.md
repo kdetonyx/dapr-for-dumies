@@ -146,5 +146,8 @@ kubectl logs -n dapr-system dapr-scheduler-server-0
 Validate for api test:
 
 ```bash
-curl http://192.168.205.91:30080/hello
+curl http://IP_HOST:30080/hello
 ```
+
+note:
+Remember for deployment service is NODEPORT !!!!
