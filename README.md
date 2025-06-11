@@ -1,5 +1,3 @@
-### Example Basic for Dapr ### 
-
 # 🛍️ Dapr 1.14.5 Installation on k0s with Scheduler Support
 
 This guide walks you through installing Dapr **v1.14.5** on a **k0s** single-node cluster, configuring the scheduler with a persistent volume.
