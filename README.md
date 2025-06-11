@@ -15,7 +15,7 @@ mv kubectl /usr/local/bin
 
 ```bash
 curl -sSLf https://get.k0s.sh | sudo sh
-k0s install controller --enable-worker
+k0s install controller --single
 k0s start
 ```
 
