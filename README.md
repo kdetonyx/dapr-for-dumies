@@ -3,6 +3,13 @@
 This guide walks you through installing Dapr **v1.14.5** on a **k0s** single-node cluster, configuring the scheduler with a persistent volume.
 
 ---
+## ✅ 0. Tools
+
+```bash
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+chmod 755 kubectl
+mv kubectl /usr/local/bin
+```
 
 ## ✅ 1. Install k0s
 
